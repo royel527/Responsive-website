@@ -53,9 +53,45 @@ h1{
 .img{
     width: 100%;
 }
-@media screen and(max-width:576px:) {
-    .navlist,.nav{
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgadd{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.feature{
+    padding: 100px;
+    
+}
+span{
+    color: coral;
+}
+.para{
+    font-weight: 600;
+}
+@media screen and (max-width:576px) {
+    .navlist,
+    .nav,
+    .main {
         flex-direction: column;
         
+    }
+    .imgadd{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature{
+        padding: 20px;
+    }
+    .button{
+        margin-left: 25%;
+    }
+}
+@media screen and (min-width:576px) and (max-width: 992px) {
+    .main{
+        flex-direction: column;
     }
 }
