@@ -13,7 +13,8 @@
     background-color: antiquewhite;
     width: 100%;
 }
-.navlist{
+.navlist,
+.clon{
     display: flex;
   
 }
@@ -90,13 +91,28 @@ span{
     justify-content: space-around;
    
 }
+.carda{
+    padding: 10px;
+}
+.five{
+    padding: 10px;
+}
+.clon{
+    margin: 10px;
+}
 
 @media screen and (max-width:576px) {
     .navlist,
     .nav,
-    .main {
+    .main,
+    .cardss, 
+    .clon {
         flex-direction: column;
         
+    }
+    .cardss{
+        justify-content: center;
+        align-items: center;
     }
     .imgadd{
         grid-template-columns: repeat(1,1fr);
