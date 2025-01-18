@@ -73,6 +73,24 @@ span{
 .para{
     font-weight: 600;
 }
+
+.card{
+    border: 3px solid greenyellow;
+    margin-top: 5px;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(160, 78, 123);
+    
+}
+.cardss{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
 @media screen and (max-width:576px) {
     .navlist,
     .nav,
@@ -89,8 +107,9 @@ span{
     .button{
         margin-left: 25%;
     }
+
 }
-@media screen and (min-width:576px) and (max-width: 992px) {
+@media screen and (min-width:576px) and (max-width:992px) {
     .main{
         flex-direction: column;
     }
