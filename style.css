@@ -93,12 +93,24 @@ span{
 }
 .carda{
     padding: 10px;
+    background-color: rgb(189, 238, 222);
 }
 .five{
     padding: 10px;
 }
 .clon{
     margin: 10px;
+}
+.imges{
+    width: 100%;
+}
+.button:hover{
+    background-color: blueviolet;
+    transform: rotate(5deg);
+}
+.card:hover{
+    background-color: chartreuse;
+    transform: rotate(3deg);
 }
 
 @media screen and (max-width:576px) {
@@ -123,6 +135,7 @@ span{
     .button{
         margin-left: 25%;
     }
+    
 
 }
 @media screen and (min-width:576px) and (max-width:992px) {
