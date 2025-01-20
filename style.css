@@ -12,6 +12,7 @@
     justify-content: space-between;
     background-color: antiquewhite;
     width: 100%;
+  
 }
 .navlist,
 .clon{
@@ -39,6 +40,9 @@ h1{
     font-weight: 700;
     font-size:4rem ;
 }
+h3{
+    margin-left: 30px;
+}
 .color{
     background-color: antiquewhite;
 }
@@ -50,14 +54,22 @@ h1{
     border-radius: 5px;
     padding: 15px 20px;
     margin-bottom: 20px;
+    
+}
+.butt{
+    margin-left: 45%;
 }
 .img{
     width: 100%;
+}
+.cardimg{
+margin-top: 30px;
 }
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 .imgadd{
     display:grid;
@@ -74,6 +86,9 @@ span{
 .para{
     font-weight: 600;
 }
+.titlenam{
+    margin: 20px;
+}
 
 .card{
     border: 3px solid greenyellow;
@@ -89,7 +104,7 @@ span{
 .cardss{
     display: flex;
     justify-content: space-around;
-   
+   margin-top: 50px;
 }
 .carda{
     padding: 10px;
@@ -103,6 +118,7 @@ span{
 }
 .imges{
     width: 100%;
+    margin-top: 50px;
 }
 .button:hover{
     background-color: blueviolet;
@@ -112,7 +128,22 @@ span{
     background-color: chartreuse;
     transform: rotate(3deg);
 }
-
+.lastdiscription{
+    text-align: center;
+}
+.sponser{
+    margin: 20px;
+    margin-right: 20px;
+}
+.finising{
+    background-color: rgb(25, 144, 223);
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+.lastdiv{
+    margin-top: 50px;
+}
 @media screen and (max-width:576px) {
     .navlist,
     .nav,
@@ -133,9 +164,11 @@ span{
         padding: 20px;
     }
     .button{
-        margin-left: 25%;
+        margin-left: 30%;
     }
-    
+    .lastdiv{
+        padding: 30px;
+    }
 
 }
 @media screen and (min-width:576px) and (max-width:992px) {
